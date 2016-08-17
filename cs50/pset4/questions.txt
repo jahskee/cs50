@@ -1,0 +1,65 @@
+0.  Colors each image format supports:
+     1. BMP = have variants but most common is 24-bit, 16.7 million colours,
+              can have maximum 32-bit, 4.2 billion colours        
+     2. GIF= 8-bit or 256 colors
+     3. JPG= 24-bit or 16.7 million colours most common
+     4. PNG = have variants but most common is 24-bit or 16.6 million colours, 
+              maximum is 256 tera colours.
+
+1.  GIF 
+
+2.  Lossy compression - All original data cannot be recovered after decompression.
+                        It throws away information in favor of file size.                
+                        Jpeg image format uses lossy compression.
+    Lossless compression - It retains all data after decompression, also a 
+                        technique of choice for compressing text data.
+                        Image files that uses this technique are GIF & PNG.
+                        
+
+3.  JPEG
+
+4.  The filename's first character is modified to mark it as deleted. The file still 
+    exist on the disk but the reference is removed. Clusters occupied by the file
+    can be recycled or overwritten.
+    
+5.  There reliable free and commercil file shredder softares, I can use to make deleted files unrecoverable.
+    Most tools overwrites the file contents with null values.
+    
+6.  <stdint.h> is a header file for standard C library, includes  macros and typedefs of various int data sizes.
+    It was created for C portability in manipulating different data size and registers on various machines.
+    
+    
+7.  Is to allocate the exact amount of integer data, example is to exactly represent the bitmap header data structure,
+    without worrying about code portability issues.
+    
+8. On 32-bit machine:
+BYTE = 1 byte
+DWORD= 4 bytes
+LONG = 4 bytes
+WORD = 2 bytes
+
+9.  
+ascii = BM 
+hex = 0x424d
+
+10. 
+bfSize = total of bytes in the bitmap file.
+biSize = is the number of bytes in the bitmap info header, which is 40 bytes for bitmap.
+
+
+11. negative biHeight =  a bitmap with top-down DIB, the origin at the upper left corner.
+
+12. biBitCount
+
+13. If the file does not exist.
+
+14. A parameter specifies the number of elements to read, it only requires 1 struct.
+
+15. padding value must be 3.
+
+16. It moves the disk read head to a specified location in file.
+
+17. A constant integer passed indicates the whence parameter to fseek function and variants.
+    It tells the function that offset provided is relative to the current seek position.
+   
+18. please see verdict.bmp file it's Rick Astley.

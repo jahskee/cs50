@@ -1,0 +1,33 @@
+0. A lung disease, characterized by inflammation of lungs caused by inhalation of silica dust.
+
+1. A program that measures the usage of Memory and CPU time by a process or processes.
+
+2. 16 members in structure.
+
+3. Passing by reference saves memory resource and time when data is large, 
+   than passing by value which creates a copy of the data object to pass.
+
+4. After opening the dictionary text file, it will do for loop to check content of each file
+   delimited by a new line character. It will continue to read the file line by line
+   until it encounters the EOF and stops.
+
+5. Using fgetc is better approach because it does not have to allocate memory ahead, 
+   before reading from file. It does not impose limit on the length of the word of the textfile.
+   It also allows the program to inspect the character while reading from file. fscanf reads
+   the entire line of words and requires dynamic allocation of read buffer and cannot inspect
+   each character being read, but requires a separate code to accomplish that. fgetc is more
+   flexible approach in most situations
+
+6. The constant parameters are not intended to be updated in the function,
+   this adds extra protection that a parameter cannot be updated.
+
+7.  Used Hash table with linked list, its size is 1024 and each node in linked list has a maximum size of 46.
+    The linked list ends when pointer node is set to null.
+
+8   Looks fast, I estimate rarely hits upperbound bigOh(n), as the nature of the hash table it is near the lower bound omega(1) most of the time.
+
+9.  I am optimizing each time I write the code, but nothing very specific.
+
+10. So far i see the statistics time in total is getting better that is close to the CS staff 50 solution.
+    Possible improvement find better hash function for good distribution.
+  
