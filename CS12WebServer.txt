@@ -1,7 +1,0 @@
-
-host: cs12students.dce.harvard.edu
-user: jlubaton [51263324]
-pass: lubaton
-
-
-http://cs12students.dce.harvard.edu/~jlubaton/veritas135/harvard_dce.html
